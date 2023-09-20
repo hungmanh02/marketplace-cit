@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+/* :root {
+  } */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+/* common */
+a {
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  text-align: center;
+}
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.main-content {
+  width: 1050px;
+  max-width: calc(100vw - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+/* header */
+.header {
+  padding: 20px 50px;
+  background: #2b2b2b;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .body a {
+  display: flex;
+  align-items: center;
+}
+.header .body .logo-brand {
+  margin-left: 12px;
+  color: #f5f5f5;
+}
+/* header right */
+.header .header-right {
+  display: flex;
+  align-items: center;
+}
+.header .navbar .navbar-list {
+  display: flex;
+  gap: 10px;
+  padding: 0 20px;
+}
+.header .navbar .navbar-item {
+  padding: 0 20px;
+}
+.header .navbar-item a {
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2.24;
+}
+
+.header .header-right .action {
+  width: 152px;
+  background: #a259ff;
+  border-radius: 20px;
+}
+.header .action a {
+  gap: 12px;
+  padding: 19px 30px;
+  border-radius: 20px;
+}
+.header .action p {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+}
