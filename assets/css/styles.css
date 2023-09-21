@@ -252,6 +252,11 @@ a {
   background: var(--Background---Secondary, #3b3b3b);
   padding: 80px 0;
 }
+.cards .main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 .cards .row .card-list,
 .cards .row {
   display: flex;
@@ -263,7 +268,7 @@ a {
 .cards .card-list .card-item {
   width: 33.33%;
   background: #2b2b2b;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px;
 }
 .cards .card-item img {
   width: 100%;
