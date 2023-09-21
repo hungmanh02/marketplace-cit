@@ -205,3 +205,38 @@ a {
 } */
 
 /*Artist Info  */
+/* Tab bar */
+.tab-bar {
+  background: #2b2b2b;
+  height: 70px;
+  border-top: 1px solid #3b3b3b;
+}
+.tab-bar .tab-bar-list {
+  margin-top: 10px;
+  display: flex;
+  height: 60px;
+}
+.tab-bar .tab-bar-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  padding: 14px 30px;
+}
+.tab-bar .tab-bar-item.active {
+  border-bottom: 2px solid var(--caption-label-text, #858584);
+}
+.tab-bar .tab-bar-item .bar-title {
+  color: var(--White, #fff);
+
+  /* H5 - Work Sans */
+  font-family: Work Sans;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 140%; /* 30.8px */
+  text-transform: capitalize;
+}
+.tab-bar .tab-bar-item .bar-number {
+  margin-left: 16px;
+}
+/* Tab bar */
