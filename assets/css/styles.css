@@ -300,13 +300,43 @@ a {
   height: 24px;
 }
 .cards .card-info .desc {
-  margin-top: 5px;
+  margin: 5px 0 0 12px;
   text-align: center;
   color: var(--White, #fff);
 
   /* Base (Body) - Space Mono */
   font-family: Space Mono;
   font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+/* card bottom */
+.card-bottom {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-bottom .card-price .title-price,
+.card-bottom .card-highest .title-price {
+  color: #858584;
+  /* Caption - Space Mono */
+  font-family: Space Mono;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 110%; /* 13.2px */
+}
+.card-bottom .card-highest {
+  text-align: right;
+}
+.card-bottom .card-price .price,
+.card-bottom .card-highest .price {
+  color: var(--White, #fff);
+  margin-top: 8px;
+  /* Base (Body) - Space Mono */
+  font-family: Space Mono;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 400;
   line-height: 140%; /* 22.4px */
 }
