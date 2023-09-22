@@ -342,3 +342,119 @@ a {
 }
 
 /* Cards */
+/* Footer */
+.footer {
+  background: #3b3b3b;
+}
+.footer .main-content {
+  display: flex;
+  padding: 40px;
+  width: 988px;
+}
+.footer .logo {
+  display: flex;
+  align-items: center;
+}
+.footer .footer-logo {
+  width: 328px;
+  /* margin-right: 84px; */
+}
+.footer .logo-brand {
+  font-size: 2.2rem;
+  margin-left: 12px;
+  color: #f5f5f5;
+}
+.footer .heading {
+  color: #fff;
+
+  /* H5 - Space Mono */
+  font-family: Space Mono;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 35.2px */
+  text-transform: capitalize;
+}
+.footer .logo-desc,
+.footer .footer-logo .desc {
+  color: #ccc;
+
+  /* Base(Body) - Work Sans */
+  font-family: Work Sans;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+.footer .footer-logo .logo-desc {
+  margin-top: 30px;
+  width: 200px;
+  height: 44px;
+}
+.footer .footer-icon {
+  margin-top: 15px;
+}
+.footer-logo .desc {
+  margin-top: 20px;
+}
+.footer .explore {
+  width: 240px;
+}
+.footer .explore-desc {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .explore-desc .desc {
+  color: #ccc;
+
+  /* Base(Body) - Work Sans */
+  font-family: Work Sans;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+.footer .join {
+  width: 420px;
+}
+.footer .join .desc {
+  width: 250px;
+  color: #ccc;
+
+  /* Base(Body) - Work Sans */
+  font-family: Work Sans;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+.footer .join .enter-mail {
+  display: flex;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 100%;
+  height: 60px;
+  padding: 16px 0px 16px 20px;
+  align-items: center;
+  gap: 12px;
+  background: var(--Text, #fff);
+}
+.footer .join .mail {
+  width: 209px;
+  height: 22px;
+  color: var(--Background, #2b2b2b);
+
+  /* Base(Body) - Work Sans */
+  font-family: Work Sans;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+.footer .join .btn-mail {
+  height: 60px;
+  width: 179px;
+  padding: 0px 50px;
+  border: none;
+  border-radius: 20px;
+  background: var(--Call-to-Action, #a259ff);
+}
+/* Footer */
